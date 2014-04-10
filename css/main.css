@@ -1,0 +1,24 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.spoilerbutton {display:block;margin:5px 0;}
+
+.spoiler {overflow:hidden;}
+
+.spoiler > div {-webkit-transition: all 0.2s ease;-moz-transition: margin 0.2s ease;-o-transition: all 0.2s ease;transition: margin 0.2s ease;}
+
+.spoilerbutton[value="▼"] + .spoiler > div {margin-top:-100%;}
+
+.spoilerbutton[value="Hide"] + .spoiler {padding:5px;}
+
+
+
+
+
+
+
+
